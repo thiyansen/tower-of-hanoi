@@ -1,8 +1,13 @@
 # tower-of-hanoi
+import java.util.Scanner;
+
 public class Towerofhanoi {
 	static int c=0;
 	public static void main(String[] args) {
-		int n=3;
+		int n=5;
+		Scanner in = new Scanner(System.in);
+		System.out.println("enter the num of disks :");
+		n=in.nextInt();
 		tower(n,"Stack1","Stack2","Stack3");
 		System.out.println("Minimum no of steps :"+c);
 	}
@@ -22,5 +27,8 @@ public class Towerofhanoi {
 		}
 		
 	}
+
+}
+
 
 }
