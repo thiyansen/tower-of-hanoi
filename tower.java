@@ -2,7 +2,7 @@
 public class Towerofhanoi {
 	static int c=0;
 	public static void main(String[] args) {
-		int n=5;
+		int n=3;
 		tower(n,"Stack1","Stack2","Stack3");
 		System.out.println("Minimum no of steps :"+c);
 	}
